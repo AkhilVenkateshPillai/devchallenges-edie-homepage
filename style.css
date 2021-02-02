@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
+
+body{
+    margin: 0;
+}
 .container-page{
     width: 100%;
     max-width: 1440px;
@@ -11,6 +16,12 @@
 
     width: 1332px;
     margin: auto;
+}
+.container-body{
+display: flex;
+flex-direction: column;
+gap: 200px;
+margin-top: 96px;
 }
 
 /* ----------------------navigattion----------------------------- */
@@ -46,4 +57,446 @@ nav{
 }
 
 
-/* -------------------------------------------------------------- */
+/* -----------------------------home--------------------------------- */
+
+.home-sub-one{
+    width: 543px;
+    margin-left: 277px;
+}
+
+.home-sub-two{
+    width: 366px;
+    margin-left: 277px;
+}
+
+.home-sub-one>p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2D9CDB;
+
+}
+.home-sub-two>p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4F4F4F;
+
+}
+
+.home-sub-two>small{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.home h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+}
+
+.home>img{
+    border-radius: 18px;
+}
+
+.email-signup{
+    position: relative;
+}
+
+.email-signup>input{
+    width: 350px;
+    height: 57px;
+    background: #F2F2F2;
+    border-radius: 12px;
+    border-style: none;
+    outline: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #BDBDBD;
+    padding-left:21px ;
+}
+
+.email-join{
+    position: absolute;
+    top:6.5px;
+    left:275px;
+    width: 94px;
+    height: 49px;
+    background: #2D9CDB;
+    border-radius: 12px;
+    font-family: Poppins;
+    border-style: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F2F2F2;
+    outline: none;
+}
+
+/* -------------------------------------------services-------------------------------------------------- */
+
+
+.services{
+ width: 1100px;
+ margin:auto;
+}
+
+.services h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 62px;
+    color: #333333;
+    width: 366px;
+    
+}
+
+.service-cards{
+ display: flex;
+ 
+ gap:41px;
+
+}
+
+.card{
+    width: 341px;
+    height: 322px;
+    padding: 46px 34px;
+}
+
+.card>h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.card>p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+
+.card>button{
+    width: 116px;
+    height: 42px;
+    background: #E0E0E0;
+    border-radius: 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+    outline: none;
+    border-style: none;
+}
+
+.icon{
+    width: 67px;
+    height: 67px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.icon>img{
+    width: 40px;
+    height: 40px;
+    fill: white;
+    padding: 14px 14px;
+}
+
+.red{
+    background-color: #EB5757;
+}
+.blue{
+    background-color: #2D9CDB;
+}
+.green{
+    background-color:#27AE60 ;
+}
+
+.two{
+
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
+}
+
+.two>button{
+    background: #2D9CDB;
+    color: #FFFFFF;
+}
+
+
+/* ---------------------------------------------work----------------------------------------------- */
+
+.work{
+    width: 1100px;
+    margin:auto;
+   }
+.work h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    color: #333333;
+    width: 466px;
+    
+} 
+
+.a{
+    margin-top: 188px;
+}
+
+.work-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 100px;
+}
+
+.work-box img{
+    width: 545px;
+    height: 545px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.work-box small{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.work-box p{
+    margin: 10px 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.work-box>.imb>.seemore{
+    margin-top: 135px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2D9CDB;
+    float: right;
+}
+
+.odd{
+    position: relative;
+    bottom: 185px;
+}
+
+
+/* ----------------------------------------------client-------------------------------------------------------- */
+
+.client{
+    width: 1100px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+   }
+
+
+.client-images{
+    display: flex;
+    gap:22px;
+    position: relative;
+    margin-right: 310px;
+}
+
+.client-images>div{
+    display: flex;
+    flex-direction: column;
+    gap:22px;
+    position: absolute;
+    left:320px;
+    top:-150px;
+}
+.client-content{
+    width: 300px;
+}
+
+.client-content>p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #EB5757;
+    
+}
+
+.client-content>h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333333;
+    
+}
+
+.client-content>small{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+    width: 10px;
+}
+
+.bdr{
+    border-radius: 24px;
+}
+
+.cla{
+ width: 300px;
+ height: 300px;
+}
+.clb{
+    width: 260px;
+    height: 260px;
+}
+
+.clc{
+    width: 291.43px;
+    height: 300px;
+}
+
+/* ----------------------------------------------------testimonial------------------------------------------ */
+
+.testimonial{
+    width: 1100px;
+    margin:100px auto;
+}
+
+.testimonial>h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333333;
+    width: 900px;
+}
+
+.testimonial>div{
+    width:300px;
+}
+
+.testimonial>div>img{
+    width: 85px;
+    height: 85px;
+    border-radius: 12px;
+}
+
+.testimonial>div>aside{
+    float: right;
+}
+
+aside>p{
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+
+aside>small{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #828282;
+}
+
+/* ----------------------------------------------footer---------------------------------------------------- */
+
+footer{
+    background: #100E1D;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 46px auto 159px auto;
+}
+
+.footer-one{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+}
+
+.footer-one>a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 200%;
+    color: #FFFFFF;
+}
+
+.footer-three>small{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #F2F2F2;
+    padding-right: auto;
+}
+
+.footer-two>div{
+    color: white;
+}
