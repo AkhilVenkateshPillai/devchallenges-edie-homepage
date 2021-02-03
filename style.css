@@ -664,8 +664,9 @@ footer{
 }
 
 .client-images{
-    width: 70%;
-    margin:200px 0 50px 0;
+    width: 80%;
+    margin:200px 250px 50px auto;
+    gap: 20px;
 }
 
 .cla{
@@ -707,7 +708,7 @@ footer{
     width: 95%;
     margin: 30px auto 170px auto ;
     flex-direction: column;
-    gap:60px
+    gap:100px
 }
 
 .footer-one{
