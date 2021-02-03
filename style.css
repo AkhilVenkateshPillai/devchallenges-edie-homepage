@@ -62,6 +62,7 @@ nav{
 .home-sub-one{
     width: 543px;
     margin-left: 277px;
+    max-width: 100%;
 }
 
 .home-sub-two{
@@ -104,10 +105,12 @@ nav{
     font-size: 48px;
     line-height: 72px;
     color: #333333;
+    
 }
 
 .home>img{
     border-radius: 18px;
+    max-width: 100%;
 }
 
 .email-signup{
@@ -164,7 +167,7 @@ nav{
     line-height: 62px;
     color: #333333;
     width: 366px;
-    
+    max-width: 100%;
 }
 
 .service-cards{
@@ -263,6 +266,7 @@ nav{
     line-height: 52px;
     color: #333333;
     width: 466px;
+    max-width: 100%;
     
 } 
 
@@ -275,11 +279,14 @@ nav{
     justify-content: center;
     gap: 15px;
     margin-bottom: 100px;
+    max-width: 100%;
 }
 
 .work-box img{
     width: 545px;
     height: 545px;
+    max-width: 100%;
+    height: auto;
     border-radius: 12px;
     margin-bottom: 10px;
 }
@@ -332,18 +339,23 @@ nav{
 
 
 .client-images{
+    max-width: 100%;
+    height: auto;
     display: flex;
     gap:22px;
-    position: relative;
-    margin-right: 310px;
+    /* position: relative; */
+    margin-right: 180px;
 }
 
 .client-images>div{
+   
+    height: auto;
     display: flex;
     flex-direction: column;
     gap:22px;
-    position: absolute;
-    left:320px;
+    position: relative;
+    top:-150px;
+    left:0px;
     top:-150px;
 }
 .client-content{
@@ -367,6 +379,7 @@ nav{
     font-size: 36px;
     line-height: 54px;
     color: #333333;
+    max-width: 100%;
     
 }
 
@@ -387,22 +400,26 @@ nav{
 .cla{
  width: 300px;
  height: 300px;
+ 
+ 
 }
 .clb{
     width: 260px;
     height: 260px;
+  
 }
 
 .clc{
     width: 291.43px;
     height: 300px;
+   
 }
 
 /* ----------------------------------------------------testimonial------------------------------------------ */
 
 .testimonial{
     width: 1100px;
-    margin:100px auto;
+    margin:100px auto 20px auto;
 }
 
 .testimonial>h1{
@@ -413,9 +430,11 @@ nav{
     line-height: 54px;
     color: #333333;
     width: 900px;
+    max-width: 100%;
 }
 
 .testimonial>div{
+    margin-top: 90px;
     width:300px;
 }
 
@@ -499,4 +518,190 @@ footer{
 
 .footer-two>div{
     color: white;
+}
+
+@media screen and (max-width:1300px){
+
+    nav{
+        width: 95%;
+        margin: auto;
+    }
+    .container-body{
+       
+        width: 95%;
+        margin: auto;
+        gap: 100px;
+        
+        } 
+      
+ .container-main{
+    width: 600px;
+    max-width: 100%;
+ }      
+.home-sub-one{
+    
+    margin: 0;
+    max-width: 100%;
+}
+
+.home-sub-one>h1{
+    font-size: 35px;
+    line-height: 46px;
+}
+
+.home-sub-two>h1{
+    font-size: 35px;
+    line-height: 46px;
+}
+.home-sub-two{
+    
+    margin: 0;
+    max-width: 100%;
+}
+.home>img{
+    max-width: 100%;
+}
+
+.service-cards{
+
+    flex-direction: column;
+   
+}
+
+.services{
+    width: 100%;
+    max-width: 100%;
+    margin:auto;
+}
+.work{
+    width: 100%;
+    max-width: 100%;
+    margin:auto;
+}
+
+.work-box{
+    
+    margin:90px 0;
+    flex-direction: column;
+
+}
+
+.ima,.imb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work-box>.imb>.seemore{
+    margin: 35px 0;
+    float: none;
+}
+
+.b{
+    margin-bottom: 35px;
+}
+
+.odd{
+    top: 0;
+}
+
+.client{
+    width: 95%;
+    max-width: 100%;
+    margin:auto;
+    flex-direction: column;
+}
+
+.client-images{
+    margin:200px 0 50px 0;
+}
+
+.cla{
+    max-width: 200px;
+    height: 200px;
+}
+
+.client-images>div{
+    top:-70px;
+    width: 10%;
+}
+.clb{
+    width: 140px;
+    height: auto;
+    
+}
+.clc{
+    width: 180px;
+    height: auto;
+}
+
+.testimonial{
+    width: 95%;
+    max-width: 100%;
+    margin:auto;
+}
+
+.contact{
+    width: 95%;
+    margin:auto;
+}
+
+.contact{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+.footer-content{
+    width: 95%;
+    margin: 30px auto 170px auto ;
+    flex-direction: column;
+    gap:60px
+}
+
+.footer-one{
+    text-align: left;
+}
+
+.footer-two>.logo{
+ position: relative;
+ right: 7px;
+}
+
+.footer-two>div{
+    width: 90px;
+    position: relative;
+   
+}
+
+.footer-three{
+    width: 180px;
+    position: relative;
+    max-width: 100%;
+   
+}
+
+.email-signup>input{
+    width: 100%;
+    max-width: 100%;
+}
+.email-join{
+   
+    max-width: 100%;
+    left:290px;
+   
+}
+.billroth{
+    left:100px;
+}
+
+.testimonial>h1{
+    font-size: 25px;
+    line-height: 46px;
+}
+
+.client-images{
+    width: 40%;
+}
+
+
+
 }
