@@ -57,6 +57,16 @@ nav{
 }
 
 
+label{
+    display: none;
+    font-size: 30px;
+}
+
+#toggle{
+    display: none;
+}
+
+
 /* -----------------------------home--------------------------------- */
 
 .home-sub-one{
@@ -131,6 +141,7 @@ nav{
     line-height: 27px;
     color: #BDBDBD;
     padding-left:21px ;
+    max-width: 100%;
 }
 
 .email-join{
@@ -150,6 +161,8 @@ nav{
     color: #F2F2F2;
     outline: none;
 }
+
+
 
 /* -------------------------------------------services-------------------------------------------------- */
 
@@ -344,7 +357,7 @@ nav{
     display: flex;
     gap:22px;
     /* position: relative; */
-    margin-right: 180px;
+    margin-right: 40px;
 }
 
 .client-images>div{
@@ -524,11 +537,35 @@ footer{
 
     nav{
         width: 95%;
-        margin: auto;
+        margin: 30px auto;
     }
+
+    .route-wrapper{
+        width: 100%;
+    }
+    .routes{
+       text-align: center;
+        float: right;
+        margin: 100px auto;
+        width: 100%;
+        display: none;
+    }
+
+    label{
+     display: block;
+     float: right;
+     cursor: pointer;
+ }
+
+ #toggle:checked + .routes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
     .container-body{
        
-        width: 95%;
+        width: 100%;
         margin: auto;
         gap: 100px;
         
@@ -538,9 +575,13 @@ footer{
     width: 600px;
     max-width: 100%;
  }      
-.home-sub-one{
-    
-    margin: 0;
+.home{
+    margin-top: 70px;
+}
+
+ .home-sub-one{
+    width: 80%;
+    margin: auto;
     max-width: 100%;
 }
 
@@ -555,7 +596,8 @@ footer{
 }
 .home-sub-two{
     
-    margin: 0;
+    width: 80%;
+    margin: auto;
     max-width: 100%;
 }
 .home>img{
@@ -563,18 +605,23 @@ footer{
 }
 
 .service-cards{
-
+    
     flex-direction: column;
    
 }
 
+.card{
+    width: 80%;
+    margin:auto;
+}
+
 .services{
-    width: 100%;
+    width: 80%;
     max-width: 100%;
     margin:auto;
 }
 .work{
-    width: 100%;
+    width: 80%;
     max-width: 100%;
     margin:auto;
 }
@@ -605,13 +652,19 @@ footer{
 }
 
 .client{
-    width: 95%;
+    width: 98%;
     max-width: 100%;
     margin:auto;
     flex-direction: column;
 }
 
+.client-content{
+    width: 80%;
+    margin: auto;
+}
+
 .client-images{
+    width: 70%;
     margin:200px 0 50px 0;
 }
 
@@ -635,7 +688,7 @@ footer{
 }
 
 .testimonial{
-    width: 95%;
+    width: 80%;
     max-width: 100%;
     margin:auto;
 }
@@ -673,24 +726,24 @@ footer{
 }
 
 .footer-three{
-    width: 180px;
+    width: 400px;
     position: relative;
-    max-width: 100%;
-   
+    margin: auto 0;
+   text-align: start;
 }
 
 .email-signup>input{
-    width: 100%;
-    max-width: 100%;
+    width: 70%;
+    
 }
 .email-join{
    
     max-width: 100%;
-    left:290px;
+    left:259px;
    
 }
 .billroth{
-    left:100px;
+    left:200px;
 }
 
 .testimonial>h1{

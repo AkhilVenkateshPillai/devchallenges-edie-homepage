@@ -13,14 +13,21 @@
     <div class="container-page">
         <div class="container-main">
             <nav>
-                <div class="logo">Edie</div>
-                <div class="routes">
-                    <a href="#home">Home</a>
-                    <a href="#services">Services</a>
-                    <a href="#work">Our Works</a>
-                    <a href="#client">Clients</a>
-                    <a href="#contact">Contact</a>
+                <div class="logo" id="logo">Edie</div>
+                
+                <div class="route-wrapper">
+                    <label class = "navlable" for="toggle">&#9776;</label>
+                    <input type="checkbox" id="toggle" onclick="disable()">
+                    <div class="routes">
+                
+                        <a href="#home" onclick="disable()">Home</a>
+                        <a href="#services" onclick="disable()">Services</a>
+                        <a href="#work" onclick="disable()">Our Works</a>
+                        <a href="#client" onclick="disable()">Clients</a>
+                        <a href="#testimonial" onclick="disable()">Contact</a>
+                    </div>
                 </div>
+                
             </nav>
 
             <div class="container-body">
@@ -42,9 +49,13 @@
                         <br>
                         <br>
                         <small>Want us to contact you?</small>
-                        <div class="email-signup">
-                            <input type="text" placeholder="Email"><button class="email-join">Join</button>
+
+                        <div style="position: relative; width: 480px;">
+                            <div class="email-signup">
+                                <input type="text" placeholder="Email"><button class="email-join">Join</button>
+                            </div>
                         </div>
+                        
 
                     </div>
 
