@@ -141,12 +141,12 @@ label{
     line-height: 27px;
     color: #BDBDBD;
     padding-left:21px ;
-    max-width: 100%;
+    
 }
 
 .email-join{
-    position: absolute;
-    top:6.5px;
+    position: relative;
+    top:-52.5px;
     left:275px;
     width: 94px;
     height: 49px;
@@ -353,12 +353,11 @@ label{
 
 
 .client-images{
-    max-width: 100%;
-    height: auto;
+    
     display: flex;
     gap:22px;
-    /* position: relative; */
-    margin-right: 40px;
+   
+
 }
 
 .client-images>div{
@@ -368,9 +367,8 @@ label{
     flex-direction: column;
     gap:22px;
     position: relative;
-    top:-150px;
     left:0px;
-    top:-150px;
+    top:-100px;
 }
 .client-content{
     width: 300px;
@@ -412,20 +410,20 @@ label{
 }
 
 .cla{
- width: 300px;
- height: 300px;
+ width:40% ;
+ height: 55%;
  
  
 }
 .clb{
-    width: 260px;
-    height: 260px;
+    width: 70%;
+    height: auto;
   
 }
 
 .clc{
-    width: 291.43px;
-    height: 300px;
+    width: 80%;
+    height: auto;
    
 }
 
@@ -534,6 +532,11 @@ footer{
     color: white;
 }
 
+.billroth{
+    top: 0px;
+    left:-100px;
+}
+
 @media screen and (max-width:1300px){
 
 
@@ -579,6 +582,8 @@ footer{
     max-width: 100%;
  }      
 .home{
+    width :95%;
+    margin: 0 auto;
     margin-top: 70px;
 }
 
@@ -655,41 +660,43 @@ footer{
 }
 
 .client{
-    width: 98%;
+    width: 80%;
     max-width: 100%;
     margin:auto;
     flex-direction: column;
 }
 
 .client-content{
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
-.client-images{
-    width: 80%;
-    margin:200px 250px 50px auto;
+.client>.client-images{
+    width:300px;
+    margin: 200px auto;
+    margin-bottom: 30px;
     gap: 20px;
 }
 
 .cla{
-    max-width: 200px;
-    height: 200px;
+    /* width: 80%; */
+
+  
 }
 
 .client-images>div{
+
     top:-70px;
-    width: 10%;
+    
 }
 .clb{
-    width: 140px;
-    height: auto;
+    max-width: 100%;
     
 }
 .clc{
-    width: 180px;
-    height: auto;
-}
+    max-width: 100%;
+   
+} 
 
 .testimonial{
     width: 80%;
@@ -736,17 +743,19 @@ footer{
 }
 
 .email-signup>input{
-    width: 70%;
+
+    width: 200px;
     
 }
 .email-join{
-   
+    position: absolute;
     max-width: 100%;
-    left:259px;
+    top:5px;
+    left: 125px;
    
 }
 .billroth{
-    left:200px;
+    left:125px;
 }
 
 .testimonial>h1{
